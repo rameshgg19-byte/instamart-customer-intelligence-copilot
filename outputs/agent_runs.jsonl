@@ -1,0 +1,7 @@
+{"scenario_id": "S1", "expected": "REFUND", "actual": "REFUND: INR 128.25 issued.", "tokens": 879, "steps": 5, "passed": true}
+{"scenario_id": "S2", "expected": "REFUND", "actual": "REFUND: INR 135.0 issued.", "tokens": 879, "steps": 5, "passed": true}
+{"scenario_id": "S3", "expected": "ESCALATE", "actual": "ESCALATE: refund above INR 1000 sent to a human lead.", "tokens": 866, "steps": 5, "passed": true}
+{"scenario_id": "S4", "expected": "DENIED", "actual": "DENIED: delivery was within 45 minutes.", "tokens": 587, "steps": 4, "passed": true}
+{"scenario_id": "S5", "expected": "DENIED", "actual": "DENIED: only completed orders can be refunded.", "tokens": 324, "steps": 3, "passed": true}
+{"scenario_id": "S6", "expected": "NOT_FOUND", "actual": "NOT_FOUND: no such order.", "tokens": 50, "steps": 2, "passed": true}
+{"scenario_id": "S7", "expected": "FALLBACK", "actual": "FALLBACK_MAX_ITERATIONS", "tokens": 2814, "steps": 6, "passed": true}
